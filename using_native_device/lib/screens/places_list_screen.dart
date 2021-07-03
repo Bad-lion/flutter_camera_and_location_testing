@@ -50,9 +50,11 @@ class PlacesListScreen extends StatelessWidget {
                                   child: Column(
                                     children: [
                                       Container(
+                                        height: 300,
                                         width: double.infinity,
                                         child: Image.file(
                                           greatePlaces.items[i].image,
+                                          fit: BoxFit.cover,
                                         ),
                                       ),
                                       SizedBox(
